@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Undeground Cinema</title>
+</head>
+
+<body>
+    <header>
+        <nav class="flex-nav">
+            <div>
+                <span class="openmobile" onclick="openNav()">&#9776;</span>
+                <img src="img/logo.png" class="merg1" alt="logo">
+            </div>
+            <div>
+                <a href="#">About</a>
+            </div>
+            <div>
+                <a href="#">Gallery</a>
+            </div>
+            <div>
+                <a href="#">Contacts</a>
+            </div>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Gaellry</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="header-content">
+            <h1 class="tt" id="hcinema">CINEMA <br> UNDEGROUND</h1>
+        </div>
+    </header>
+    <main>
+        <div class="block1">
+            <div class="innerblock11">
+                <h1>We are a film club, the purpose of
+                    whis is to watch and discuss a film collectively,
+                    themed parties and lectures on film art.
+                    Join our family.
+                </h1>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="innerblock21">
+                <h1 class="bebas">
+                    NOW AT THE CINEMA
+                </h1>
+            </div>
+            <div class="innerblock22">
+                <div id="MySlider" class="splide" aria-labelledby="carousel-heading">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="img/poster1.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="img/poster2.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="img/poster3.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="img/poster4.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="img/poster5.jpg" alt=""></li>
+                            <li class="splide__slide"><img src="img/poster6.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block3">
+            <div class="innerfblock">
+                <div class="innerblock31">
+                    <h1 class="bebas">BOOK TICKETS</h1>
+                </div>
+                <div class="innerblock32">
+                    <form action="#">
+                        <label class="form-label" for="fname">First Name</label>
+                        <div class="innerblock33"><input type="text" id="fname" name="firstname"></div>
+                        <label class="form-label" for="email">Email</label>
+                        <div class="innerblock33"><input type="text" id="email" name="email"></div>
+                        <input class="bebas" type="submit" value="My Tickets!">
+                    </form>
+                </div>
+            </div>
+        </div>        
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h1> <i class="fa-solid fa-phone" style="margin-right: 5px;"></i> 1-800-000 </h1>
+            <h1><i class="fa-solid fa-envelope" style="margin-right: 5px;"></i> cinemaundeground@gmail.com </h1>
+            <h1><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i> 456 Movie Street, Cinematown, FL 12345, USA </h1>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/dbcdb45ccb.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="js/pscript.js"></script>
+
+</html>
