@@ -294,7 +294,7 @@ input[type=text], select {
 /* Footer */
 
 footer {
-    background: url(/img/background.jpg);
+    background: url('../img/background.jpg');
     background-size: cover;
     background-position: 50% 70%;
     height: 50vh;
